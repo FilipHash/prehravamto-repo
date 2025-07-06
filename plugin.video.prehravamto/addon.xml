@@ -1,0 +1,24 @@
+<addon id="plugin.video.prehravamto"
+       name="Přehravám to"
+       version="1.0.0"
+       provider-name="Filip">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Přehrávám to</summary>
+        <description lang="cs_CZ">[B]Streamuje filmy a seriály z prehrajto.cz[/B]&#10;Nutnost vlastnit účet na prehrajto.cz&#10;[I]Autor doplňku nemá žádnou vazbu na portál.[/I]&#10;Užívejte</description>
+        <platform>all</platform>
+        <news>[B]Novinky[/B]&#10;[I][B]1.0.0[/B][/I]&#10;* [COLOR FF50FF42]+[/COLOR] Žebříčky, žánry&#10;* [COLOR FFFFAE42]beta verze[/COLOR] Stahování informací z ČFSD</news>
+        <assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+		</assets>
+</extension>
+</addon>

@@ -1,0 +1,14 @@
+<settings>
+    <category label="Pøihlášení">
+        <setting id="email" type="text" label="E-mail" default=""/>
+        <setting id="password" type="text" label="Heslo" default="" option="hidden" />
+    </category>
+    <category label="Notifikace">
+    <setting id="enable_notifications" type="bool" label="Zobrazovat notifikaci o Premium" default="true"/>
+    </category>
+    <category label="ÈFSD (BETA)">
+    <setting type="lsep" label="Zpomaluje procest výpisu filmù, doporuèuji vypnout"/>
+        <setting id="enable_csfd_info" type="bool" label="Stahovat popisy z ÈSFD" default="false"/>
+    </category>
+    
+</settings>
